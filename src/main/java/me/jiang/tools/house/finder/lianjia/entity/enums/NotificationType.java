@@ -1,4 +1,4 @@
-package me.jiang.tools.house.finder.lianjia.lianjia.entity.enums;
+package me.jiang.tools.house.finder.lianjia.entity.enums;
 
 import java.util.HashMap;
 import java.util.Map;

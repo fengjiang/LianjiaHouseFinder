@@ -22,7 +22,7 @@
 *
 ----------------------------------------------------------------------------------
 */
-package me.jiang.tools.house.finder.lianjia.lianjia.entity.response;
+package me.jiang.tools.house.finder.lianjia.entity.response;
 
 import lombok.Data;
 
@@ -85,7 +85,7 @@ public class PropertyData {
 //        0
     private String hotImage;
 
-//        "http//image3.me.jiang.tools.house.finder.lianjia.lianjia.com/hdic-resblock/4474f77e-6a21-40a9-a50e-03e620ea54df.jpg.200x150.jpg"
+//        "http//image3.me.jiang.tools.house.finder.lianjia.com/hdic-resblock/4474f77e-6a21-40a9-a50e-03e620ea54df.jpg.200x150.jpg"
     private String houseType;
 
 //        "住宅 - 公寓、商业类"
@@ -163,5 +163,5 @@ public class PropertyData {
 //        932
     private String webUrl;
 
-//        "http//sh.me.jiang.tools.house.finder.lianjia.lianjia.com/xiaoqu/5011000004008.html"
+//        "http//sh.me.jiang.tools.house.finder.lianjia.com/xiaoqu/5011000004008.html"
 }

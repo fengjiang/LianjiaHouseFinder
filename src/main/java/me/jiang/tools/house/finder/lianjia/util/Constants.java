@@ -1,4 +1,4 @@
-package me.jiang.tools.house.finder.lianjia.lianjia.util;
+package me.jiang.tools.house.finder.lianjia.util;
 
 /*
  *

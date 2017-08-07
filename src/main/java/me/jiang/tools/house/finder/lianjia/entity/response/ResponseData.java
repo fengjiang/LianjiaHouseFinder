@@ -7,7 +7,7 @@
 *
 * @Project Name : novel-downloader
 *
-* @File name : TImerRunner.java
+* @File name : ResponseData.java
 *
 * @Author : remote
 *
@@ -22,7 +22,13 @@
 *
 ----------------------------------------------------------------------------------
 */
-package me.jiang.tools.house.finder.lianjia.lianjia.timer;
+package me.jiang.tools.house.finder.lianjia.entity.response;
+
+import com.fasterxml.jackson.annotation.JsonProperty;
+import lombok.Data;
+import me.fjiang.tool.lianjia.entity.HouseData;
+
+import java.util.List;
 
 /*
  *
@@ -30,5 +36,12 @@ package me.jiang.tools.house.finder.lianjia.lianjia.timer;
  * @description 
  * @date 8/7/17
  */
-public class TImerRunner {
+@Data
+public class ResponseData {
+    private List<HouseData> data;
+    private PropertyData property;
+    @JsonProperty("return_count")
+    private int returnCount;
+    @JsonProperty("total_count")
+    private int totalCount;
 }

@@ -7,7 +7,7 @@
 *
 * @Project Name : novel-downloader
 *
-* @File name : ResponseResult.java
+* @File name : TImerRunner.java
 *
 * @Author : remote
 *
@@ -22,9 +22,7 @@
 *
 ----------------------------------------------------------------------------------
 */
-package me.jiang.tools.house.finder.lianjia.lianjia.entity.response;
-
-import lombok.Data;
+package me.jiang.tools.house.finder.lianjia.timer;
 
 /*
  *
@@ -32,9 +30,5 @@ import lombok.Data;
  * @description 
  * @date 8/7/17
  */
-@Data
-public class ResponseResult {
-    private int errno;
-    private String status;
-    private ResponseData data;
+public class TImerRunner {
 }

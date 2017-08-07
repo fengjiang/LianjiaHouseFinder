@@ -22,7 +22,7 @@
 *
 ----------------------------------------------------------------------------------
 */
-package me.jiang.tools.house.finder.lianjia.lianjia.netfetcher;
+package me.jiang.tools.house.finder.lianjia.netfetcher;
 
 import me.fjiang.tool.lianjia.entity.HouseData;
 import me.fjiang.tool.lianjia.entity.response.ResponseResult;

@@ -22,7 +22,7 @@
 *
 ----------------------------------------------------------------------------------
 */
-package me.jiang.tools.house.finder.lianjia.lianjia.entity;
+package me.jiang.tools.house.finder.lianjia.entity;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.Data;
